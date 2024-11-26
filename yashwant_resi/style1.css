@@ -1,0 +1,66 @@
+/* Global styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Section Title Styling */
+  .ourSpecials__title, .dishGrid__title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Item Grid Layout */
+  .ourSpecials__wrapper, .dishGrid__wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  /* Individual Item Styling */
+  .ourSpecials__item, .dishGrid__item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .ourSpecials__item:hover, .dishGrid__item:hover {
+    transform: scale(1.05);
+  }
+  
+  .ourSpecials__item__img img, .dishGrid__item__img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .ourSpecials__item__info, .dishGrid__item__info {
+    padding: 15px;
+  }
+  
+  .ourSpecials__item__title, .dishGrid__item__title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .ourSpecials__item__price, .dishGrid__item__price {
+    color: #27ae60;
+    font-size: 1.1em;
+    margin-top: 5px;
+  }
+  
+  .ourSpecials__item__stars img, .dishGrid__item__stars img {
+    height: 20px;
+  }
+  
+  
